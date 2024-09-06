@@ -17,11 +17,11 @@ const Contact = () => {
     const formAlert = document.getElementById("form-alert");
     const closeAlert = document.getElementById("close-form-alert");
     sendBtn.innerHTML = "Submitting ...";
-    const serviceID = "service_x26v6rc";
-    const templateID = "template_qvq91or";
+    const serviceID = "service_mnst071";
+    const templateID = "template_ob9ps46";
 
     emailjs
-      .sendForm(serviceID, templateID, form.current, "MJDjpuOmrTo581Td0")
+      .sendForm(serviceID, templateID, form.current, "A_4PkoyBAy2N0vm6a")
       .then(
         (result) => {
           formAlert.style.display = "flex";
@@ -56,7 +56,6 @@ const Contact = () => {
                   className="h-7 w-7 text-gray-500"
                   viewBox="0 0 20 20"
                   fill="currentColor"
-                  
                 >
                   <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z" />
                   <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z" />
@@ -112,7 +111,7 @@ const Contact = () => {
                 target="_blank"
                 rel="noreferrer noopener"
               >
-                +234(0)8137309622
+                +234 (0)8137309622
               </a>
             </div>
           </div>
@@ -161,7 +160,7 @@ const Contact = () => {
                 </a>
 
                 <a
-                  href="https://wa.me/message/MPEXJWTA7GLXJ1"
+                  href="https://wa.me/message/5QKXQWL773YJA1"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="sm:inline-flex sm:shrink-0 sm:items-center"

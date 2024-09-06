@@ -128,16 +128,18 @@ const Footer = () => {
               </strong>
 
               <nav className="mt-4 flex flex-col space-y-1 text-sm text-gray-300">
-                <a className="transition" href="mailto:aptechotacentre@gmail.com">
+                <a
+                  className="transition"
+                  href="mailto:aptechotacentre@gmail.com"
+                >
                   {" "}
-                  <span className="font-bold">
-                    Email:
-                  </span> aptechotacentre@gmail.com{" "}
+                  <span className="font-bold">Email:</span>{" "}
+                  aptechotacentre@gmail.com{" "}
                 </a>
                 <div>
                   <span className="font-bold">Telephone:</span> <br />
                   <a className="transition" href="tel:+2348107146343">
-                    +234 (0)2348107146343 <br />
+                    +234 (0)8107146343 <br />
                   </a>
                   <a className="transition" href="tel:+2348137309622">
                     +234 (0)8137309622{" "}
